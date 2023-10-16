@@ -1,6 +1,4 @@
 
-
-
 #main {
     width: 25%;
     height: 100%;
@@ -29,4 +27,25 @@
     height: 300px;
     object-fit: scale-down;
     margin-left: -50px;
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-style {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+#links {
+    text-align: center;
+}
+
+.link-style {
+    padding: 5px;
+    border: 1px solid black;
 }
