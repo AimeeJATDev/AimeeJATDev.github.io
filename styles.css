@@ -36,6 +36,10 @@
     margin-bottom: 20px;
 }
 
+#social-media a {
+    margin-right: 5px;
+}
+
 .social-style {
     display: flex;
     width: 40px;
@@ -52,13 +56,25 @@
     text-align: center;
 }
 
+#links i {
+    margin-left: 20px;
+    margin-right: -20px;
+    font-size: 20px;
+}
+
+#links p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .link-style {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     color: white;
     background-color: black;
     border-radius: 15px;
     text-decoration: none;
+    margin-bottom: 15px;
 }
