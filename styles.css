@@ -1,9 +1,28 @@
+/* Roboto Font: https://fonts.google.com/specimen/Roboto */
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(Fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/* Colour Scheme: https://colorhunt.co/palette/4a55a27895cba0bfe0c5dff8 */
+
+* {
+    font-family: Roboto-Regular, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(#7895CB, #A0BFE0);
+}
 
 #main {
     width: 25%;
     height: 100%;
-    margin: auto;
-    border: 1px solid red;
+    margin: auto auto auto auto;
 }
 
 #header {
@@ -58,7 +77,7 @@
 
 #links i {
     margin-left: 20px;
-    margin-right: -20px;
+    margin-right: -50px;
     font-size: 20px;
 }
 
