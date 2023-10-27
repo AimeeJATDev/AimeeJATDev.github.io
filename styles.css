@@ -30,6 +30,23 @@
     }
 }
 
+@media screen and (orientation: landscape)
+and (max-height: 500px) {
+    #main {
+        width: 100%;
+        background-color: red;
+    }
+
+    #header {
+        float: left;
+    }
+
+    #links {
+        width: 80%;
+        
+    }
+}   
+
 * {
     font-family: Roboto-Regular, sans-serif;
 }
