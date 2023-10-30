@@ -34,16 +34,18 @@
 and (max-height: 500px) {
     #main {
         width: 100%;
-        background-color: red;
     }
 
     #header {
         float: left;
+        margin-left: 20px;
     }
 
     #links {
-        width: 80%;
-        
+        width: 70%;
+        float: right;
+        margin-right: 20px;
+        margin-top: 35px;
     }
 }   
 
