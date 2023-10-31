@@ -5,44 +5,47 @@
 }
 
 /* Colour Scheme: https://colorhunt.co/palette/4a55a27895cba0bfe0c5dff8 */
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     #main {
         width: 25%;
     }
 }
 
-@media screen and (max-width: 1150px ) {
+@media only screen and (max-width: 1150px ) {
     #main {
         width: 40%;
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     #main {
         width: 60%;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     #main {
         width: 80%;
     }
 }
 
-@media screen and (orientation: landscape)
+@media only screen and (orientation: landscape)
 and (max-height: 500px) {
     #main {
-        width: 100%;
+        width: 100%;  
     }
 
     #header {
         float: left;
         margin-left: 20px;
+        margin-right: 20px;
     }
 
     #links {
-        width: 70%;
+        width: 55%;
+        min-width: 300px;
+        max-width: 500px;
         float: right;
         margin-right: 20px;
         margin-top: 35px;
