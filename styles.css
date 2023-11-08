@@ -25,6 +25,10 @@
         width: 40px;
         height: 40px;
     }
+
+    #links i {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 1150px ) {
@@ -46,6 +50,10 @@
     .social-style{
         width: 40px;
         height: 40px;
+    }
+
+    #links i {
+        font-size: 20px;
     }
 
 }
@@ -89,11 +97,11 @@ and (max-height: 500px) {
 @media only screen and (orientation: landscape) 
 and (max-height: 350px) {
     #main {
-        background-color: red;
+        /*background-color: red;*/
     }
 
     #header {
-
+        margin-top: 15px;
     }
 
     #header h2 {
@@ -117,7 +125,12 @@ and (max-height: 350px) {
     }
 
     #links {
+        height: 20px;
+        font-size: 15px;
+    }
 
+    #links i {
+        font-size: 15px;
     }
 }
 
@@ -195,7 +208,7 @@ body {
 #links i {
     margin-left: 20px;
     margin-right: -50px;
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 
 #links p {
