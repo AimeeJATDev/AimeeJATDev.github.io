@@ -97,11 +97,11 @@ and (max-height: 500px) {
 @media only screen and (orientation: landscape) 
 and (max-height: 350px) {
     #main {
-        /*background-color: red;*/
+        width: 70%;
     }
 
     #header {
-        margin-top: 15px;
+        
     }
 
     #header h2 {
@@ -127,6 +127,7 @@ and (max-height: 350px) {
     #links {
         height: 20px;
         font-size: 15px;
+        margin-top: -15px;
     }
 
     #links i {
