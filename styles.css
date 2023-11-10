@@ -5,49 +5,136 @@
 }
 
 /* Colour Scheme: https://colorhunt.co/palette/4a55a27895cba0bfe0c5dff8 */
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     #main {
         width: 25%;
     }
+
+    #avatar-div img {
+        width: 300px;
+        height: 300px;
+        margin-left: -50px;
+    }
+
+    .avatar {
+        width: 200px;
+        height: 200px;
+    }
+
+    .social-style {
+        width: 40px;
+        height: 40px;
+    }
+
+    #links i {
+        font-size: 20px;
+    }
 }
 
-@media screen and (max-width: 1150px ) {
+@media only screen and (max-width: 1150px ) {
     #main {
         width: 40%;
     }
 
+    #avatar-div img {
+        width: 300px;
+        height: 300px;
+        margin-left: -50px;
+    }
+
+    .avatar {
+        width: 200px;
+        height: 200px;
+    }
+
+    .social-style{
+        width: 40px;
+        height: 40px;
+    }
+
+    #links i {
+        font-size: 20px;
+    }
+
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     #main {
         width: 60%;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     #main {
         width: 80%;
     }
 }
 
-@media screen and (orientation: landscape)
+@media only screen and (orientation: landscape)
 and (max-height: 500px) {
     #main {
-        width: 100%;
+        width: 100%;  
     }
 
     #header {
         float: left;
-        margin-left: 20px;
+        margin-left: 80px;
+        margin-right: 20px;
+        margin-top: -20px;
+        margin-bottom: 20px;
     }
 
     #links {
-        width: 70%;
+        width: 55%;
+        min-width: 300px;
+        max-width: 500px;
         float: right;
         margin-right: 20px;
-        margin-top: 35px;
+        margin-top: 20px;
     }
-}   
+}
+
+@media only screen and (orientation: landscape) 
+and (max-height: 350px) {
+    #main {
+        width: 70%;
+    }
+
+    #header {
+        margin-left: 30px;
+    }
+
+    #header h2 {
+        font-size: 20px;
+    }
+
+    #avatar-div img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .avatar {
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    .social-style {
+        width: 35px;
+        height: 35px;
+    }
+
+    #links {
+        height: 20px;
+        font-size: 15px;
+        margin-top: -15px;
+        /*margin-right: 10%;*/
+    }
+
+    #links i {
+        font-size: 15px;
+    }
+}
 
 * {
     font-family: Roboto-Regular, sans-serif;
@@ -74,23 +161,23 @@ body {
     text-align: center;
 }
 
+#avatar-div img {
+    /*width: 300px;
+    height: 300px;*/
+    object-fit: scale-down;
+   /* margin-left: -50px;*/
+}
+
 /* Ref: https://www.webfx.com/blog/web-design/circular-images-css/ 
    https://www.w3schools.com/howto/howto_css_image_avatar.asp */
 
 .avatar {
-    width: 200px;
-    height: 200px;
+    /*width: 200px;
+    height: 200px;*/
     border-radius: 50%;
     overflow: hidden;
     margin-left: auto; 
     margin-right: auto;
-}
-
-#avatar-div img {
-    width: 300px;
-    height: 300px;
-    object-fit: scale-down;
-    margin-left: -50px;
 }
 
 #social-media {
@@ -106,8 +193,8 @@ body {
 
 .social-style {
     display: flex;
-    width: 40px;
-    height: 40px;
+    /*width: 40px;
+    height: 40px;*/
     background-color: black;
     border-radius: 50%;
     color: white;
@@ -123,7 +210,7 @@ body {
 #links i {
     margin-left: 20px;
     margin-right: -50px;
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 
 #links p {
